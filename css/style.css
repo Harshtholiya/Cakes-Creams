@@ -3,4 +3,18 @@ body {
   color: #fff;
   background-color: #FFC0CB;
   font-family: 'Oxygen', sans-serif;
+  margin: 25px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.container {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
 }
