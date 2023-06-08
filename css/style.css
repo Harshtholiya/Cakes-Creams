@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #FFC0CB;
+  color: black;
+  background-color: #FED8B1;
   font-family: 'Oxygen', sans-serif;
   margin: 25px;
 }
@@ -14,7 +14,45 @@ body {
 
 .container {
   width: 80%;
-  background-color: white;
+  background-color: lightsalmon;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
 }
+
+#menu-tile, #Special-tile, #Map-tile {
+  height: 300px;
+  width: 250px;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#menu-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+
+#menu-tile span, #Special-tile span, #Map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+#menu-tile {
+  background: url('https://realfood.tesco.com/media/images/RFO-1400x919-TropicalTrifle-28e410b2-02fa-4089-9f5a-1100aba60efa-0-1400x919.jpg')  ;
+  background-size: 300px 250px;
+}
+
+#Special-tile {
+  background: url('https://thefoodxp.com/wp-content/uploads/2020/05/Khaman-Dhokla.jpg')  ;
+  background-size: 300px 250px;
+}
+  
