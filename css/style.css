@@ -6,6 +6,14 @@ body {
   margin: 25px;
 }
 
+.nav {
+  background-color: sandybrown;
+}
+
+.navbar {
+  background-color: lightgoldenrodyellow;
+}
+
 .bottom-right {
   position: absolute;
   bottom: 8px;
@@ -56,3 +64,8 @@ body {
   background-size: 300px 250px;
 }
   
+#address, #testimonials, #hours {
+  font-style: oblique;
+  font-family:cursive;
+
+}  
